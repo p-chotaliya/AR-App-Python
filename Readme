@@ -1,0 +1,19 @@
+this only works into ubuntu because in windows I cant find any working glut library for python 
+pip3 install opencv-python
+pip3 install numpy
+pip3 install glob3
+pip3 install PyOpenGL
+pip3 install PyOpenGL_accelerate"if cant run than try to add sudo before pip3
+
+
+first-add this  "pip3 install Cmake"
+after-you can add this  "pip3 install dlib"if error still occured than use stack overflow for solution
+
+sudo apt-get install -y freeglut3-dev
+
+next do this
+sudo nano /etc/environment
+this will open one file
+Add this new line in that file and dont change any previous context
+QT_X11_NO_MITSHM=1
+
